@@ -1,7 +1,13 @@
-body {
- 
-  background-color: #ededed;
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500;600;700&display=swap');
+
+.app {
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding-left: 10px;
+  background-color: #f7f5f5;
+  align-items: center;
 }
-
-
-

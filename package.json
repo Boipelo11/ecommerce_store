@@ -1,5 +1,5 @@
 {
-  "name": "ecommerce_website",
+  "name": "store",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,8 +12,7 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.14.2",
-    "sass": "^1.64.2"
+    "sass": "^1.65.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
@@ -23,6 +22,7 @@
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
+    "react-router-dom": "^6.15.0",
     "vite": "^4.4.5"
   }
 }
