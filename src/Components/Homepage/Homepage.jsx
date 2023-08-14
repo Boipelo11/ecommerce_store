@@ -39,14 +39,15 @@ export const Homepage = () =>{
          </ul>
     </div>
     <div className="content-frame">
-    <div className="search-bar"> 
-        <input className="input-bar" type="text" placeholder="Apple Watch, Samsung S21,Macbook Pro, ..."/>
-    </div>
+    
     <div className="cart">
         <h2>Bag</h2>
         <div className="cart-items">
 
         </div>
+    </div>
+    <div className="search-bar"> 
+        <input className="input-bar" type="text" placeholder="Apple Watch, Samsung S21,Macbook Pro, ..." />
     </div>
     <div className="content-area">
     <div className="Products">
@@ -105,37 +106,45 @@ export const Homepage = () =>{
             <div className="item-display">
             <img className="product" src={iPhone3}/>
             </div>
+            <div className="item-content">
             <h5>iPhone 11</h5>
             <p>Product RED</p>
             <h5>$ 619.99</h5>
             <i></i>
+            </div>
         </div>
         <div className="item">
             <div className="item-display">
             <img className="product" src={iPhone4}/>
             </div>
+            <div className="item-content">
             <h5>iPhone 11</h5>
             <p>Milky White</p>
             <h5>$ 619.99</h5>
             <i></i>
+            </div>
         </div>
         <div className="item">
             <div className="item-display">
             <img className="product" src={iPhone3}/>
             </div>
+            <div className="item-content">
             <h5>iPhone 13</h5>
             <p>Product RED</p>
             <h5>$ 619.99</h5>
             <i></i>
+            </div>
         </div>
         <div className="item">
             <div className="item-display">
             <img className="product" src={iPhone3}/>
             </div>
+            <div className="item-content">
             <h5>iPhone 14</h5>
             <p>Product RED</p>
             <h5>$ 619.99</h5>
             <i></i>
+            </div>
         </div>
     </div>
     </div>
@@ -145,37 +154,45 @@ export const Homepage = () =>{
             <div className="item-display">
             <img className="product" src={iPhone5}/>
             </div>
+            <div className="item-content">
             <h5>Apple Watch</h5>
             <p>Series 5 SE</p>
             <h5>$ 529.99</h5>
             <i></i>
+            </div>
         </div>
         <div className="item">
             <div className="item-display">
             <img className="product" src={iPhone6}/>
             </div>
-            <h5>Sony ZX33OBT </h5>
-            <p>Light Grey</p>
-            <h5>$ 39.99</h5>
+            <div className="item-content">
+            <h5>Apple Watch</h5>
+            <p>Series 5 SE</p>
+            <h5>$ 529.99</h5>
             <i></i>
+            </div>
         </div>
         <div className="item">
             <div className="item-display">
             <img className="product" src={iPhone7}/>
             </div>
-            <h5>iPhone 11</h5>
-            <p>Serious Black</p>
-            <h5>$ 619.99</h5>
+            <div className="item-content">
+            <h5>Apple Watch</h5>
+            <p>Series 5 SE</p>
+            <h5>$ 529.99</h5>
             <i></i>
+            </div>
         </div>
         <div className="item">
             <div className="item-display">
             <img className="product" src={iPhone8}/>
             </div>
-            <h5>iPhone 11</h5>
-            <p>Subway Blue</p>
-            <h5>$ 619.99</h5>
-            <i></i>
+            <div className="item-content">
+            <h5>Apple Watch</h5>
+            <p>Series 5 SE</p>
+            <h5>$ 529.99</h5>
+            <a type="button">Add</a>
+            </div>
         </div>
     </div>
     </div>
@@ -185,37 +202,45 @@ export const Homepage = () =>{
             <div className="item-display">
             <img className="product" src={iPhone9}/>
             </div>
+            <div className="item-content">
             <h5>Apple Watch</h5>
             <p>Series 5 SE</p>
             <h5>$ 529.99</h5>
             <i></i>
+            </div>
         </div>
         <div className="item">
             <div className="item-display">
             <img className="product" src={Samsung1}/>
             </div>
-            <h5>Sony ZX33OBT </h5>
-            <p>Light Grey</p>
-            <h5>$ 39.99</h5>
+            <div className="item-content">
+            <h5>Apple Watch</h5>
+            <p>Series 5 SE</p>
+            <h5>$ 529.99</h5>
             <i></i>
+            </div>
         </div>
         <div className="item">
             <div className="item-display">
             <img className="product" src={Samsung2}/>
             </div>
-            <h5>iPhone 11</h5>
-            <p>Serious Black</p>
-            <h5>$ 619.99</h5>
+            <div className="item-content">
+            <h5>Apple Watch</h5>
+            <p>Series 5 SE</p>
+            <h5>$ 529.99</h5>
             <i></i>
+            </div>
         </div>
         <div className="item">
             <div className="item-display">
             <img className="product" src={Samsung3}/>
             </div>
-            <h5>iPhone 11</h5>
-            <p>Subway Blue</p>
-            <h5>$ 619.99</h5>
+            <div className="item-content">
+            <h5>Apple Watch</h5>
+            <p>Series 5 SE</p>
+            <h5>$ 529.99</h5>
             <i></i>
+            </div>
         </div>
     </div>
     </div>
@@ -225,37 +250,45 @@ export const Homepage = () =>{
             <div className="item-display">
             <img className="product" src={Dell3}/>
             </div>
+            <div className="item-content">
             <h5>Apple Watch</h5>
             <p>Series 5 SE</p>
             <h5>$ 529.99</h5>
             <i></i>
+            </div>
         </div>
         <div className="item">
             <div className="item-display">
             <img className="product" src={macbook}/>
             </div>
-            <h5>Sony ZX33OBT </h5>
-            <p>Light Grey</p>
-            <h5>$ 39.99</h5>
+            <div className="item-content">
+            <h5>Apple Watch</h5>
+            <p>Series 5 SE</p>
+            <h5>$ 529.99</h5>
             <i></i>
+            </div>
         </div>
         <div className="item">
             <div className="item-display">
             <img className="product" src={Dell1}/>
             </div>
-            <h5>iPhone 11</h5>
-            <p>Serious Black</p>
-            <h5>$ 619.99</h5>
-            <i></i>
+            <div className="item-content">
+            <h5>Apple Watch</h5>
+            <p>Series 5 SE</p>
+            <h5>$ 529.99</h5>
+            <a><img src={bagAdd}/></a>
+            </div>
         </div>
         <div className="item">
             <div className="item-display">
             <img className="product" src={Dell2}/>
             </div>
-            <h5>iPhone 11</h5>
-            <p>Subway Blue</p>
-            <h5>$ 619.99</h5>
+            <div className="item-content">
+            <h5>Apple Watch</h5>
+            <p>Series 5 SE</p>
+            <h5>$ 529.99</h5>
             <i></i>
+            </div>
         </div>
     </div>
     </div>
