@@ -13,7 +13,7 @@ function App() {
       <Nav menuTogglerFunction={setMenuToggler} 
         menuTogglerValue={menuToggler} />
       <Routes>
-        <Route path='/store/' element={<Home />}/>
+        <Route path='/ecommerce_store/' element={<Home />}/>
       </Routes>
       <Bag />
     </div>
