@@ -1,0 +1,89 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 80px;
+    border-radius: 20px;
+    background-color: white;
+    height: 90vh;
+    padding-bottom: 10px;
+    
+    & > ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 50px;
+        align-items: center;
+        padding-left: 0;
+
+        & li {
+            padding-left: 0;
+        }
+    }
+
+    &-link {
+        background-color: black;
+        border-radius: 10px;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+//  hamburger menu bar
+.toggle {
+    position: relative;
+    width: 50px;
+    height: 40px;
+    background: transparent;
+    box-shadow: 0 10px 20px rgba(255, 254, 254, 0.08);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-right: 10px;
+  }
+  
+  .toggle span {
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: #3a3a3a;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .toggle span:nth-child(1) {
+    transform: translateY(-7px);
+    width: 20px;
+    left: 10px;
+  }
+  
+  .toggle span:nth-child(2) {
+    transform: translateY(7px);
+    width: 20px;
+    left: 10px;
+  }
+  
+  .toggle.active span:nth-child(3) {
+    transform: translateX(-50px);
+  }
+  
+  .toggle.active span:nth-child(1) {
+    width: 30px;
+    transform: rotate(45deg);
+  }
+  
+  .toggle.active span:nth-child(2) {
+    width: 30px;
+    transform: rotate(-45deg);
+  }
+  

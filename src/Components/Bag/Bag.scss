@@ -1,0 +1,30 @@
+.bag {
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    width: 200px;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & .items {
+       width: 100%;
+       
+
+        & .imageContainer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            background-color: #fff;
+            width: 60px;
+            height: 60px;
+            
+            & img {
+                width: 90%;
+                height: 90%;
+            }
+        }
+    }
+}
